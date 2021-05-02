@@ -11,6 +11,7 @@ $grey: rgb(229, 221, 219);
 $black: rgb(0, 0, 0);
 
 $lg: 992px;
+$burger-menu-moved-to-left: 384px;
 
 @font-face {
   font-family: 'TheSkinny';
@@ -18,7 +19,7 @@ $lg: 992px;
 }
 
 * {
-  font-family: 'TheSkinny';
+  font-family: 'TheSkinny', monospace;
 }
 
 .navbar {
@@ -34,6 +35,13 @@ $lg: 992px;
       height: 50%;
     }
   }
+  a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    @media screen and (max-width: $burger-menu-moved-to-left) {
+      max-width: 140px;
+    }
+  }
 }
 
 .spacer {
@@ -42,6 +50,9 @@ $lg: 992px;
 
   @media screen and (max-width: $lg) {
     height: 132px;
+  }
+  @media screen and (max-width: $burger-menu-moved-to-left) {
+    height: 80px;
   }
 }
 
@@ -61,8 +72,13 @@ $lg: 992px;
 
 #expedition-glück {
   min-height: 650px;
-  background-color: $green;
+  background-color: $blue;
   color: $white;
+  #image {
+    background: url(../img/FOTO4_Hut.JPG) center no-repeat;
+    min-height: 800px;
+    background-size: cover;
+  }
 
   button {
     padding: 8px;

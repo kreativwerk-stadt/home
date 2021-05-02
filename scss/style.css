@@ -5,7 +5,7 @@
 }
 
 * {
-  font-family: 'TheSkinny';
+  font-family: 'TheSkinny', monospace;
 }
 
 .navbar {
@@ -27,6 +27,16 @@
   }
 }
 
+.navbar a {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 384px) {
+  .navbar a {
+    max-width: 140px;
+  }
+}
+
 .spacer {
   width: 100%;
   height: 160px;
@@ -35,6 +45,12 @@
 @media screen and (max-width: 992px) {
   .spacer {
     height: 132px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  .spacer {
+    height: 80px;
   }
 }
 
@@ -58,8 +74,14 @@
 
 #expedition-glück {
   min-height: 650px;
-  background-color: #98b153;
+  background-color: #5c96a7;
   color: white;
+}
+
+#expedition-glück #image {
+  background: url(../img/FOTO4_Hut.JPG) center no-repeat;
+  min-height: 800px;
+  background-size: cover;
 }
 
 #expedition-glück button {
