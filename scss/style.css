@@ -4,8 +4,23 @@
   src: url("../fonts/TheSkinny.otf");
 }
 
+@font-face {
+  font-family: 'Desereted';
+  src: url(../fonts/Desereted.ttf);
+}
+
+@font-face {
+  font-family: 'AmaticSC-Bold';
+  src: url(../fonts/AmaticSC-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'AmaticSC-Regular';
+  src: url(../fonts/AmaticSC-Regular.ttf);
+}
+
 * {
-  font-family: 'TheSkinny', monospace;
+  font-family: 'AmaticSC-Bold';
 }
 
 .navbar {
@@ -28,7 +43,8 @@
 }
 
 .navbar a {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.8rem;
+  color: black !important;
 }
 
 @media screen and (max-width: 384px) {
@@ -71,39 +87,74 @@
 }
 
 #showcase > .container h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   color: black;
-  -webkit-text-stroke: 1px #b58089;
+  -webkit-text-stroke: 1px white;
 }
 
-#expedition-glück {
+#expedition-glück .container {
   background-color: #5c96a7;
 }
 
+#expedition-glück h1 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+#expedition-glück img {
+  max-width: 90%;
+}
+
+#expedition-glück .row {
+  max-width: 90%;
+  margin: auto;
+}
+
+#expedition-glück .col-md-6 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: justify;
+  font-size: 1.1rem;
+}
+
 #expedition-glück button {
-  padding: 8px;
-  width: 300px;
+  padding: 8px 16px;
+  width: auto;
   background-color: #b58089;
   color: white;
   -webkit-box-shadow: none;
           box-shadow: none;
   border: none;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
-#art-map {
-  font-size: 25px;
+#art-map .container {
   background-color: #f5d16d;
 }
 
+#art-map h1 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+#art-map .row {
+  max-width: 90%;
+  margin: auto;
+}
+
+#art-map p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: justify;
+  font-size: 1.1rem;
+}
+
 #art-map button {
-  padding: 8px;
-  width: 300px;
+  padding: 8px 16px;
+  width: 200px;
   background-color: #5c96a7;
   color: white;
   -webkit-box-shadow: none;
           box-shadow: none;
   border: none;
-  font-size: 20px;
+  font-size: 2rem;
 }
 /*# sourceMappingURL=style.css.map */

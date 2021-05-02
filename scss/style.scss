@@ -18,8 +18,23 @@ $burger-menu-moved-to-left: 384px;
   src: url('../fonts/TheSkinny.otf');
 }
 
+@font-face {
+  font-family: 'Desereted';
+  src: url(../fonts/Desereted.ttf);
+}
+
+@font-face {
+  font-family: 'AmaticSC-Bold';
+  src: url(../fonts/AmaticSC-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'AmaticSC-Regular';
+  src: url(../fonts/AmaticSC-Regular.ttf);
+}
+
 * {
-  font-family: 'TheSkinny', monospace;
+  font-family: 'AmaticSC-Bold';
 }
 
 .navbar {
@@ -36,11 +51,11 @@ $burger-menu-moved-to-left: 384px;
     }
   }
   a {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
     @media screen and (max-width: $burger-menu-moved-to-left) {
       max-width: 140px;
     }
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 1) !important;
   }
 }
 
@@ -65,37 +80,76 @@ $burger-menu-moved-to-left: 384px;
   justify-content: center;
 
   h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     color: $black;
-    -webkit-text-stroke: 1px $light-red;
+    -webkit-text-stroke: 1px $white;
   }
 }
 
 #expedition-glück {
-  background-color: $blue;
+  .container {
+    background-color: $blue;
+  }
+
+  h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+  }
+
+  img {
+    max-width: 90%;
+  }
+
+  .row {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .col-md-6 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    font-size: 1.1rem;
+  }
 
   button {
-    padding: 8px;
-    width: 300px;
+    padding: 8px 16px;
+    width: auto;
     background-color: $light-red;
     color: $white;
     box-shadow: none;
     border: none;
-    font-size: 20px;
+    font-size: 2rem;
   }
 }
 
 #art-map {
-  font-size: 25px;
-  background-color: $yellow;
+  .container {
+    background-color: $yellow;
+  }
+
+  h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+  }
+
+  .row {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    font-size: 1.1rem;
+  }
 
   button {
-    padding: 8px;
-    width: 300px;
+    padding: 8px 16px;
+    width: 200px;
     background-color: $blue;
     color: $white;
     box-shadow: none;
     border: none;
-    font-size: 20px;
+    font-size: 2rem;
   }
 }
