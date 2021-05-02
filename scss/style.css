@@ -54,41 +54,37 @@
   }
 }
 
-#showcase {
+#showcase > .container {
   min-height: 650px;
   background: url(../img/Showcase.jpeg) no-repeat center;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-#showcase h1 {
+#showcase > .container h1 {
   font-size: 4rem;
   color: black;
   -webkit-text-stroke: 1px #b58089;
 }
 
 #expedition-glück {
-  min-height: 650px;
   background-color: #5c96a7;
-  color: white;
-}
-
-#expedition-glück #image {
-  background: url(../img/FOTO4_Hut.JPG) center no-repeat;
-  min-height: 800px;
-  background-size: cover;
 }
 
 #expedition-glück button {
   padding: 8px;
   width: 300px;
-  background-color: var(--light-red);
-  color: var(--white);
+  background-color: #b58089;
+  color: white;
   -webkit-box-shadow: none;
           box-shadow: none;
   border: none;
@@ -97,6 +93,17 @@
 
 #art-map {
   font-size: 25px;
-  background-color: yellow;
+  background-color: #f5d16d;
+}
+
+#art-map button {
+  padding: 8px;
+  width: 300px;
+  background-color: #5c96a7;
+  color: white;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -56,12 +56,13 @@ $burger-menu-moved-to-left: 384px;
   }
 }
 
-#showcase {
+#showcase > .container {
   min-height: 650px;
   background: url(../img/Showcase.jpeg) no-repeat center;
   background-size: cover;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 
   h1 {
     font-size: 4rem;
@@ -71,20 +72,13 @@ $burger-menu-moved-to-left: 384px;
 }
 
 #expedition-glück {
-  min-height: 650px;
   background-color: $blue;
-  color: $white;
-  #image {
-    background: url(../img/FOTO4_Hut.JPG) center no-repeat;
-    min-height: 800px;
-    background-size: cover;
-  }
 
   button {
     padding: 8px;
     width: 300px;
-    background-color: var(--light-red);
-    color: var(--white);
+    background-color: $light-red;
+    color: $white;
     box-shadow: none;
     border: none;
     font-size: 20px;
@@ -93,5 +87,15 @@ $burger-menu-moved-to-left: 384px;
 
 #art-map {
   font-size: 25px;
-  background-color: yellow;
+  background-color: $yellow;
+
+  button {
+    padding: 8px;
+    width: 300px;
+    background-color: $blue;
+    color: $white;
+    box-shadow: none;
+    border: none;
+    font-size: 20px;
+  }
 }
