@@ -106,9 +106,9 @@ $burger-menu-moved-to-left: 384px;
   }
 
   .col-md-6 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Desereted';
     text-align: justify;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
 
   button {
@@ -138,9 +138,69 @@ $burger-menu-moved-to-left: 384px;
   }
 
   p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Desereted';
     text-align: justify;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
+  }
+
+  button {
+    padding: 8px 16px;
+    width: 200px;
+    background-color: $blue;
+    color: $white;
+    box-shadow: none;
+    border: none;
+    font-size: 2rem;
+  }
+}
+
+#diy-automat {
+  .container {
+    background-color: $green;
+  }
+
+  h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: $light-blue;
+  }
+
+  .row {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  p {
+    font-family: 'Desereted';
+    text-align: justify;
+    font-size: 1.4rem;
+    margin-bottom: 80px;
+  }
+  h3 {
+    margin-bottom: 20px;
+    color: $light-blue;
+  }
+}
+
+#telefonzelle {
+  .container {
+    background-color: $light-red;
+  }
+
+  h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+  }
+
+  .row {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  p {
+    font-family: 'Desereted';
+    text-align: justify;
+    font-size: 1.4rem;
   }
 
   button {

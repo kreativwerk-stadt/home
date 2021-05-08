@@ -111,9 +111,9 @@
 }
 
 #expedition-glück .col-md-6 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Desereted';
   text-align: justify;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 #expedition-glück button {
@@ -142,12 +142,70 @@
 }
 
 #art-map p {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Desereted';
   text-align: justify;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 #art-map button {
+  padding: 8px 16px;
+  width: 200px;
+  background-color: #5c96a7;
+  color: white;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  font-size: 2rem;
+}
+
+#diy-automat .container {
+  background-color: #98b153;
+}
+
+#diy-automat h1 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+  color: #f3f6f9;
+}
+
+#diy-automat .row {
+  max-width: 90%;
+  margin: auto;
+}
+
+#diy-automat p {
+  font-family: 'Desereted';
+  text-align: justify;
+  font-size: 1.4rem;
+  margin-bottom: 80px;
+}
+
+#diy-automat h3 {
+  margin-bottom: 20px;
+  color: #f3f6f9;
+}
+
+#telefonzelle .container {
+  background-color: #b58089;
+}
+
+#telefonzelle h1 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+#telefonzelle .row {
+  max-width: 90%;
+  margin: auto;
+}
+
+#telefonzelle p {
+  font-family: 'Desereted';
+  text-align: justify;
+  font-size: 1.4rem;
+}
+
+#telefonzelle button {
   padding: 8px 16px;
   width: 200px;
   background-color: #5c96a7;
