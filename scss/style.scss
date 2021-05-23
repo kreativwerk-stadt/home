@@ -255,3 +255,47 @@ $burger-menu-moved-to-left: 384px;
     font-size: 1.4rem;
   }
 }
+
+#team {
+  .container {
+    background-color: $green;
+  }
+
+  h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+  }
+
+  .row {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  p {
+    font-family: 'Desereted';
+    text-align: justify;
+    font-size: 1.4rem;
+  }
+}
+
+#contact {
+  .container {
+    background-color: $light-red;
+  }
+  .row {
+    max-width: 90%;
+    margin: auto;
+  }
+  h3 {
+    font-size: 3rem;
+    margin-top: 10px;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+  input[type='submit'] {
+    background-color: $blue;
+    border-color: $blue;
+    font-size: 1.8rem;
+  }
+}

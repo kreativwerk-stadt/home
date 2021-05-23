@@ -250,4 +250,48 @@
   text-align: justify;
   font-size: 1.4rem;
 }
+
+#team .container {
+  background-color: #98b153;
+}
+
+#team h1 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+#team .row {
+  max-width: 90%;
+  margin: auto;
+}
+
+#team p {
+  font-family: 'Desereted';
+  text-align: justify;
+  font-size: 1.4rem;
+}
+
+#contact .container {
+  background-color: #b58089;
+}
+
+#contact .row {
+  max-width: 90%;
+  margin: auto;
+}
+
+#contact h3 {
+  font-size: 3rem;
+  margin-top: 10px;
+}
+
+#contact p {
+  font-size: 1.8rem;
+}
+
+#contact input[type='submit'] {
+  background-color: #5c96a7;
+  border-color: #5c96a7;
+  font-size: 1.8rem;
+}
 /*# sourceMappingURL=style.css.map */
