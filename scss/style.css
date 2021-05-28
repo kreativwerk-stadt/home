@@ -27,6 +27,19 @@ a {
   color: black;
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-instagram {
+  color: black;
+}
+
 .navbar {
   -webkit-box-shadow: 2px 2px 5px #e5dddb;
           box-shadow: 2px 2px 5px #e5dddb;

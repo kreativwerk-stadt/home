@@ -40,6 +40,19 @@ a {
   color: $black;
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-instagram {
+  color: $black;
+}
+
 .navbar {
   box-shadow: 2px 2px 5px $grey;
   opacity: 0.9;
