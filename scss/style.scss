@@ -1,14 +1,15 @@
-$white: rgb(255, 255, 255);
+$white: #ffffff;
 $blue: rgb(92, 150, 167);
 $yellow: rgb(245, 209, 109);
 $green: rgb(152, 177, 83);
-$light-red: rgb(181, 128, 137);
-$dark-red: rgb(168, 106, 117);
+$light-red: #b58089;
+$dark-red: #a86a75;
 $light-blue: rgb(191, 229, 243);
 $brown: rgb(187, 163, 139);
 $light-blue: rgb(243, 246, 249);
 $grey: rgb(229, 221, 219);
 $black: rgb(0, 0, 0);
+$light-black: rgb(54, 53, 53);
 
 $lg: 992px;
 $burger-menu-moved-to-left: 384px;
@@ -135,8 +136,8 @@ a {
     font-size: 1.4rem;
   }
 
-  button {
-    padding: 8px 16px;
+  a {
+    padding: 12px 30px;
     width: auto;
     background-color: $light-red;
     color: $white;
@@ -198,11 +199,20 @@ a {
     font-family: 'Desereted';
     text-align: justify;
     font-size: 1.4rem;
-    margin-bottom: 80px;
+    margin: 0;
   }
   h3 {
     margin-bottom: 20px;
     color: $light-blue;
+  }
+  a {
+    padding: 8px 16px;
+    width: 300px;
+    background-color: $light-black;
+    color: $white;
+    box-shadow: none;
+    border: none;
+    font-size: 2rem;
   }
 }
 
@@ -317,5 +327,14 @@ a {
   }
   small {
     font-size: 1rem;
+  }
+}
+
+#main-footer {
+  background-color: $brown;
+
+  a {
+    font-size: 1.8rem;
+    padding: 0;
   }
 }

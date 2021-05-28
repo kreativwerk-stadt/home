@@ -44,7 +44,7 @@ a {
   -webkit-box-shadow: 2px 2px 5px #e5dddb;
           box-shadow: 2px 2px 5px #e5dddb;
   opacity: 0.9;
-  background: white;
+  background: #ffffff;
 }
 
 .navbar img {
@@ -106,7 +106,7 @@ a {
 #showcase .container h1 {
   font-size: 5rem;
   color: black;
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 1px #ffffff;
 }
 
 #showcase .container #demo {
@@ -139,11 +139,11 @@ a {
   font-size: 1.4rem;
 }
 
-#expedition-glück button {
-  padding: 8px 16px;
+#expedition-glück a {
+  padding: 12px 30px;
   width: auto;
   background-color: #b58089;
-  color: white;
+  color: #ffffff;
   -webkit-box-shadow: none;
           box-shadow: none;
   border: none;
@@ -174,7 +174,7 @@ a {
   padding: 8px 16px;
   width: 200px;
   background-color: #5c96a7;
-  color: white;
+  color: #ffffff;
   -webkit-box-shadow: none;
           box-shadow: none;
   border: none;
@@ -200,12 +200,23 @@ a {
   font-family: 'Desereted';
   text-align: justify;
   font-size: 1.4rem;
-  margin-bottom: 80px;
+  margin: 0;
 }
 
 #diy-automat h3 {
   margin-bottom: 20px;
   color: #f3f6f9;
+}
+
+#diy-automat a {
+  padding: 8px 16px;
+  width: 300px;
+  background-color: #363535;
+  color: #ffffff;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  font-size: 2rem;
 }
 
 #telefonzelle .container {
@@ -315,5 +326,14 @@ a {
 
 #contact small {
   font-size: 1rem;
+}
+
+#main-footer {
+  background-color: #bba38b;
+}
+
+#main-footer a {
+  font-size: 1.8rem;
+  padding: 0;
 }
 /*# sourceMappingURL=style.css.map */
