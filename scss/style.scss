@@ -36,6 +36,9 @@ $burger-menu-moved-to-left: 384px;
 * {
   font-family: 'AmaticSC-Bold';
 }
+a {
+  color: $black;
+}
 
 .navbar {
   box-shadow: 2px 2px 5px $grey;
@@ -237,6 +240,7 @@ $burger-menu-moved-to-left: 384px;
 #blog {
   .container {
     background-color: $yellow;
+    min-height: 620px;
   }
 
   h1 {

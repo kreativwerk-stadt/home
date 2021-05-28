@@ -23,6 +23,10 @@
   font-family: 'AmaticSC-Bold';
 }
 
+a {
+  color: black;
+}
+
 .navbar {
   -webkit-box-shadow: 2px 2px 5px #e5dddb;
           box-shadow: 2px 2px 5px #e5dddb;
@@ -233,6 +237,7 @@
 
 #blog .container {
   background-color: #f5d16d;
+  min-height: 620px;
 }
 
 #blog h1 {
