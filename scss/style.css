@@ -36,6 +36,10 @@ a {
   margin: 5px 2px;
 }
 
+.fa:hover {
+  text-decoration: none;
+}
+
 .fa-instagram {
   color: black;
 }
