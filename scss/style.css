@@ -1,26 +1,22 @@
 @charset "UTF-8";
 @font-face {
-  font-family: 'TheSkinny';
+  font-family: "TheSkinny";
   src: url("../fonts/TheSkinny.otf");
 }
-
 @font-face {
-  font-family: 'Desereted';
+  font-family: "Desereted";
   src: url(../fonts/Desereted.ttf);
 }
-
 @font-face {
-  font-family: 'AmaticSC-Bold';
+  font-family: "AmaticSC-Bold";
   src: url(../fonts/AmaticSC-Bold.ttf);
 }
-
 @font-face {
-  font-family: 'AmaticSC-Regular';
+  font-family: "AmaticSC-Regular";
   src: url(../fonts/AmaticSC-Regular.ttf);
 }
-
 * {
-  font-family: 'AmaticSC-Bold';
+  font-family: "AmaticSC-Bold";
 }
 
 a {
@@ -45,29 +41,24 @@ a {
 }
 
 .navbar {
-  -webkit-box-shadow: 2px 2px 5px #e5dddb;
-          box-shadow: 2px 2px 5px #e5dddb;
+  box-shadow: 2px 2px 5px #e5dddb;
   opacity: 0.9;
   background: #ffffff;
 }
-
 .navbar img {
   width: 80%;
   height: 80%;
 }
-
 @media screen and (max-width: 992px) {
   .navbar img {
     width: 50%;
     height: 50%;
   }
 }
-
 .navbar a {
   font-size: 1.8rem;
   color: black !important;
 }
-
 @media screen and (max-width: 384px) {
   .navbar a {
     max-width: 140px;
@@ -78,13 +69,11 @@ a {
   width: 100%;
   height: 160px;
 }
-
 @media screen and (max-width: 992px) {
   .spacer {
     height: 132px;
   }
 }
-
 @media screen and (max-width: 384px) {
   .spacer {
     height: 80px;
@@ -93,63 +82,89 @@ a {
 
 #showcase .container {
   min-height: 650px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   background: url(../img/Showcase.jpeg) no-repeat center;
   background-size: cover;
 }
-
 #showcase .container h1 {
   font-size: 5rem;
   color: black;
   -webkit-text-stroke: 1px #ffffff;
 }
-
 #showcase .container #demo {
   color: #5c96a7;
   font-weight: bold;
   -webkit-text-stroke: 1px black;
 }
 
+#drei-insel-festival .container {
+  background-color: #b58089;
+}
+#drei-insel-festival h1 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+  color: #f3f6f9;
+}
+#drei-insel-festival .row {
+  max-width: 90%;
+  margin: auto;
+}
+#drei-insel-festival p {
+  font-family: "Desereted";
+  text-align: justify;
+  font-size: 1.4rem;
+  margin: 0;
+}
+#drei-insel-festival h3 {
+  margin-bottom: 20px;
+  color: #f3f6f9;
+}
+#drei-insel-festival a {
+  padding: 8px 16px;
+  width: 300px;
+  background-color: #f5d16d;
+  color: #ffffff;
+  box-shadow: none;
+  border: none;
+  font-size: 2rem;
+}
+#drei-insel-festival button {
+  padding: 8px 16px;
+  width: 200px;
+  background-color: #5c96a7;
+  color: #ffffff;
+  box-shadow: none;
+  border: none;
+  font-size: 2rem;
+}
+
 #expedition-glück .container {
   background-color: #5c96a7;
 }
-
 #expedition-glück h1 {
   font-size: 3rem;
   letter-spacing: 3px;
 }
-
 #expedition-glück img {
   max-width: 90%;
 }
-
 #expedition-glück .row {
   max-width: 90%;
   margin: auto;
 }
-
 #expedition-glück .col-md-6 {
-  font-family: 'Desereted';
+  font-family: "Desereted";
   text-align: justify;
   font-size: 1.4rem;
 }
-
 #expedition-glück a {
   padding: 12px 30px;
   width: auto;
   background-color: #b58089;
   color: #ffffff;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   border: none;
   font-size: 2rem;
 }
@@ -157,30 +172,25 @@ a {
 #art-map .container {
   background-color: #f5d16d;
 }
-
 #art-map h1 {
   font-size: 3rem;
   letter-spacing: 3px;
 }
-
 #art-map .row {
   max-width: 90%;
   margin: auto;
 }
-
 #art-map p {
-  font-family: 'Desereted';
+  font-family: "Desereted";
   text-align: justify;
   font-size: 1.4rem;
 }
-
 #art-map button {
   padding: 8px 16px;
   width: 200px;
   background-color: #5c96a7;
   color: #ffffff;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   border: none;
   font-size: 2rem;
 }
@@ -188,37 +198,31 @@ a {
 #diy-automat .container {
   background-color: #98b153;
 }
-
 #diy-automat h1 {
   font-size: 3rem;
   letter-spacing: 3px;
   color: #f3f6f9;
 }
-
 #diy-automat .row {
   max-width: 90%;
   margin: auto;
 }
-
 #diy-automat p {
-  font-family: 'Desereted';
+  font-family: "Desereted";
   text-align: justify;
   font-size: 1.4rem;
   margin: 0;
 }
-
 #diy-automat h3 {
   margin-bottom: 20px;
   color: #f3f6f9;
 }
-
 #diy-automat a {
   padding: 8px 16px;
   width: 300px;
   background-color: #363535;
   color: #ffffff;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   border: none;
   font-size: 2rem;
 }
@@ -226,19 +230,16 @@ a {
 #telefonzelle .container {
   background-color: #b58089;
 }
-
 #telefonzelle h1 {
   font-size: 3rem;
   letter-spacing: 3px;
 }
-
 #telefonzelle .row {
   max-width: 90%;
   margin: auto;
 }
-
 #telefonzelle p {
-  font-family: 'Desereted';
+  font-family: "Desereted";
   text-align: justify;
   font-size: 1.4rem;
 }
@@ -246,19 +247,16 @@ a {
 #clemens .container {
   background-color: #5c96a7;
 }
-
 #clemens h1 {
   font-size: 3rem;
   letter-spacing: 3px;
 }
-
 #clemens .row {
   max-width: 90%;
   margin: auto;
 }
-
 #clemens p {
-  font-family: 'Desereted';
+  font-family: "Desereted";
   text-align: justify;
   font-size: 1.4rem;
 }
@@ -267,19 +265,16 @@ a {
   background-color: #f5d16d;
   min-height: 620px;
 }
-
 #blog h1 {
   font-size: 3rem;
   letter-spacing: 3px;
 }
-
 #blog .row {
   max-width: 90%;
   margin: auto;
 }
-
 #blog p {
-  font-family: 'Desereted';
+  font-family: "Desereted";
   text-align: justify;
   font-size: 1.4rem;
 }
@@ -287,19 +282,16 @@ a {
 #team .container {
   background-color: #98b153;
 }
-
 #team h1 {
   font-size: 3rem;
   letter-spacing: 3px;
 }
-
 #team .row {
   max-width: 90%;
   margin: auto;
 }
-
 #team p {
-  font-family: 'Desereted';
+  font-family: "Desereted";
   text-align: justify;
   font-size: 1.4rem;
 }
@@ -307,27 +299,22 @@ a {
 #contact .container {
   background-color: #b58089;
 }
-
 #contact .row {
   max-width: 90%;
   margin: auto;
 }
-
 #contact h3 {
   font-size: 3rem;
   margin-top: 10px;
 }
-
 #contact p {
   font-size: 1.8rem;
 }
-
-#contact input[type='submit'] {
+#contact input[type=submit] {
   background-color: #5c96a7;
   border-color: #5c96a7;
   font-size: 1.8rem;
 }
-
 #contact small {
   font-size: 1rem;
 }
@@ -335,9 +322,9 @@ a {
 #main-footer {
   background-color: #bba38b;
 }
-
 #main-footer a {
   font-size: 1.8rem;
   padding: 0;
 }
+
 /*# sourceMappingURL=style.css.map */
