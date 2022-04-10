@@ -121,19 +121,36 @@ a {
   .container {
     background-color: $light-red;
   }
+  .modal-body > .container {
+    background-color: $white;
+    padding: 0;
+  }
+  .modal-dialog {
+    max-width: 600px;
+  }
 
   h1 {
     font-size: 3rem;
     letter-spacing: 3px;
-    color: $light-blue;
+    color: $white;
   }
 
   .row {
     max-width: 90%;
     margin: auto;
   }
-  .text-center {
+  .row-red {
+    background-color: $light-red;
+  }
+  .row-yellow {
+    background-color: $yellow;
+  }
+  .col-2, .col-sm {
+    border: 1px black solid; 
+  }
+  .btn-group {
     margin-top: 15px;
+    justify-content: space-evenly;
   }
 
   p {
@@ -143,8 +160,7 @@ a {
     margin: 0;
   }
 
-  a,
-  button {
+  .btn {
     padding: 8px 16px;
     width: 200px;
     color: $white;
@@ -153,17 +169,44 @@ a {
     font-size: 2rem;
   }
 
-  a {
-    background-color: $yellow;
+  a.btn {
+    background-color: $black;
   }
-  button {
-    background-color: $blue;
+  button.btn {
+    background-color: $black;
   }
 
-  button:hover,
-  a:hover {
+  .btn:hover {
     text-decoration: underline;
     cursor: pointer;
+    background-color: $white;
+    color: $black;
+  }
+}
+
+#insel-artists {
+  .container {
+    background-color: $light-red;
+    min-height: 620px;
+  }
+
+  h1 {
+    color: $white;
+    font-size: 3rem;
+    letter-spacing: 3px;
+  }
+
+  .row {
+    max-width: 90%;
+    margin: auto;
+  }
+
+
+
+  p {
+    font-family: 'Desereted';
+    text-align: justify;
+    font-size: 1.4rem;
   }
 }
 

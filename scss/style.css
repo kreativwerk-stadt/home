@@ -105,17 +105,34 @@ a {
 #drei-insel-festival .container {
   background-color: #b58089;
 }
+#drei-insel-festival .modal-body > .container {
+  background-color: #ffffff;
+  padding: 0;
+}
+#drei-insel-festival .modal-dialog {
+  max-width: 600px;
+}
 #drei-insel-festival h1 {
   font-size: 3rem;
   letter-spacing: 3px;
-  color: #f3f6f9;
+  color: #ffffff;
 }
 #drei-insel-festival .row {
   max-width: 90%;
   margin: auto;
 }
-#drei-insel-festival .text-center {
+#drei-insel-festival .row-red {
+  background-color: #b58089;
+}
+#drei-insel-festival .row-yellow {
+  background-color: #f5d16d;
+}
+#drei-insel-festival .col-2, #drei-insel-festival .col-sm {
+  border: 1px black solid;
+}
+#drei-insel-festival .btn-group {
   margin-top: 15px;
+  justify-content: space-evenly;
 }
 #drei-insel-festival p {
   font-family: "Desereted";
@@ -123,8 +140,7 @@ a {
   font-size: 1.4rem;
   margin: 0;
 }
-#drei-insel-festival a,
-#drei-insel-festival button {
+#drei-insel-festival .btn {
   padding: 8px 16px;
   width: 200px;
   color: #ffffff;
@@ -132,16 +148,36 @@ a {
   border: none;
   font-size: 2rem;
 }
-#drei-insel-festival a {
-  background-color: #f5d16d;
+#drei-insel-festival a.btn {
+  background-color: black;
 }
-#drei-insel-festival button {
-  background-color: #5c96a7;
+#drei-insel-festival button.btn {
+  background-color: black;
 }
-#drei-insel-festival button:hover,
-#drei-insel-festival a:hover {
+#drei-insel-festival .btn:hover {
   text-decoration: underline;
   cursor: pointer;
+  background-color: #ffffff;
+  color: black;
+}
+
+#insel-artists .container {
+  background-color: #b58089;
+  min-height: 620px;
+}
+#insel-artists h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+#insel-artists .row {
+  max-width: 90%;
+  margin: auto;
+}
+#insel-artists p {
+  font-family: "Desereted";
+  text-align: justify;
+  font-size: 1.4rem;
 }
 
 #expedition-glück .container {
