@@ -64,6 +64,9 @@ a {
     max-width: 140px;
   }
 }
+.navbar a:hover {
+  text-decoration: underline;
+}
 
 .spacer {
   width: 100%;
@@ -111,33 +114,34 @@ a {
   max-width: 90%;
   margin: auto;
 }
+#drei-insel-festival .text-center {
+  margin-top: 15px;
+}
 #drei-insel-festival p {
   font-family: "Desereted";
   text-align: justify;
   font-size: 1.4rem;
   margin: 0;
 }
-#drei-insel-festival h3 {
-  margin-bottom: 20px;
-  color: #f3f6f9;
-}
-#drei-insel-festival a {
-  padding: 8px 16px;
-  width: 300px;
-  background-color: #f5d16d;
-  color: #ffffff;
-  box-shadow: none;
-  border: none;
-  font-size: 2rem;
-}
+#drei-insel-festival a,
 #drei-insel-festival button {
   padding: 8px 16px;
   width: 200px;
-  background-color: #5c96a7;
   color: #ffffff;
   box-shadow: none;
   border: none;
   font-size: 2rem;
+}
+#drei-insel-festival a {
+  background-color: #f5d16d;
+}
+#drei-insel-festival button {
+  background-color: #5c96a7;
+}
+#drei-insel-festival button:hover,
+#drei-insel-festival a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 #expedition-glück .container {
