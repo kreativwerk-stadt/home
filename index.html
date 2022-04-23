@@ -29,16 +29,22 @@
   <body id="home">
     <!-- ArvidAnalytics SmartTag Pixel -->
     <script>
-      const img = document.createElement('img');
       fetch('https://api.ipregistry.co/?key=tryout')
         .then(function (response) {
           return response.json();
         })
         .then(function (payload) {
           console.log(payload.location.country.name + ', ' + payload.location.city);
-          img.src = `https://arvid-analytics.herokuapp.com/track?user_location=${payload.location.country.name}/${
-            payload.location.city
-          }&user_date=${Date.now()}`;
+          window.country = payload.location.country.name;
+          window.city = payload.location.city;
+        })
+        .catch((err) => {
+          console.error(err);
+        })
+        .finally(() => {
+          console.log('Experiment completed');
+          const img = document.createElement('img');
+          img.src = `https://arvid-analytics.herokuapp.com/track?user_location=${window.country}/${window.city}&user_date=${Date.now()}`;
           document.body.appendChild(img);
         });
     </script>
