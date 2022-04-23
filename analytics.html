@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -58,12 +58,12 @@
         <!-- Navbar -->
 
         <!-- Background image -->
-        <div class="p-5 text-center bg-image" style="background-image: url('./jazmin-quaynor-8ioenvmof-I-unsplash.jpg'); height: 400px">
+        <div class="p-5 text-center bg-image" style="background-image: url('./img/jazmin-quaynor-8ioenvmof-I-unsplash.jpg'); height: 400px">
           <div class="mask">
             <div class="d-flex justify-content-center align-items-center h-100">
               <div class="text-white">
-                <h1 class="mb-3 text-secondary">PlantShop Analytics</h1>
-                <h4 class="mb-3 text-secondary">Reporting Suite</h4>
+                <h1 class="mb-3 text-secondary">Arvid Analytics</h1>
+                <h4 class="mb-3 text-secondary">Report Kreativwerkstadt</h4>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@
             var badge = document.createElement('div');
             badge.className = 'accordion-item';
             badge.innerHTML = `
-
+            
             <h2 class="accordion-header" id="heading${data[key]._id}">
               <button
                 class="accordion-button text-secondary"
@@ -99,13 +99,13 @@
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
-              visitor_id: ${data[key]._id}
+             ${data[key].user_date} - ${data[key].user_location}
               </button>
             </h2>
             <div id="collapse${data[key]._id}" class="accordion-collapse collapse" aria-labelledby="heading${data[key]._id}" data-bs-parent="#accordionExample">
               <div class="accordion-body text-secondary">          
-                <p>PageName: ${data[key].page_name} </p>
-                <p>PageLanguage: ${data[key].page_language}</p>
+                <p>Date: ${data[key].user_date}</p>
+                <p>Date: ${data[key].user_location}</p>
               </div>
             </div>
 
