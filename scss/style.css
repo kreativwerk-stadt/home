@@ -152,14 +152,88 @@ a {
   border: none;
   font-size: 2rem;
 }
+#palast-koberg button.close {
+  font-size: 6rem;
+}
 #palast-koberg a.btn {
   background-color: #ffffff;
 }
 #palast-koberg button.btn {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+  border: 1px solid black;
 }
 #palast-koberg .btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  border-color: white;
+}
+
+#die-reibe .container {
+  background-color: rgb(152, 177, 83);
+}
+#die-reibe img {
+  border: 5px solid #b58089;
+}
+#die-reibe .modal-body > .container {
+  background-color: rgb(228, 217, 217);
+  padding: 10px;
+}
+#die-reibe .modal-dialog {
+  max-width: 600px;
+}
+#die-reibe h1 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+  color: rgb(0, 0, 0);
+}
+#die-reibe .row {
+  max-width: 90%;
+  margin: auto;
+}
+#die-reibe .row-red {
+  background-color: #b58089;
+}
+#die-reibe .row-yellow {
+  background-color: rgb(245, 209, 109);
+}
+#die-reibe .col-2, #die-reibe .col-sm {
+  border: 1px black solid;
+}
+#die-reibe .btn-group {
+  margin-top: 15px;
+  justify-content: space-evenly;
+}
+#die-reibe p {
+  font-family: "Desereted";
+  text-align: justify;
+  font-size: 1.4rem;
+  margin: 0;
+  margin-bottom: 10px;
+}
+#die-reibe .btn {
+  padding: 8px 16px;
+  width: 200px;
+  color: #ffffff;
+  box-shadow: none;
+  border: none;
+  font-size: 2rem;
+}
+#die-reibe button.close {
+  font-size: 6rem;
+}
+#die-reibe a.btn {
+  background-color: #b58089;
+  color: #ffffff;
+}
+#die-reibe button.btn {
+  background-color: #b58089;
+  color: #ffffff;
+}
+#die-reibe .btn:hover {
   text-decoration: underline;
   cursor: pointer;
   background-color: #ffffff;
