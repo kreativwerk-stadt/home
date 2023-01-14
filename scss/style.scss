@@ -10,6 +10,7 @@ $light-blue: rgb(243, 246, 249);
 $grey: rgb(229, 221, 219);
 $black: rgb(0, 0, 0);
 $light-black: rgb(54, 53, 53);
+$orange: rgb(228, 217, 217);
 
 $lg: 992px;
 $burger-menu-moved-to-left: 384px;
@@ -117,9 +118,84 @@ a {
   }
 }
 
+#palast-koberg {
+  .container {
+    background-color: $orange;
+  }
+  img {
+    border: 5px solid $white;
+  }
+  .modal-body > .container {
+    background-color: $orange;
+    padding: 10px;
+  }
+  .modal-dialog {
+    max-width: 600px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: $black;
+  }
+
+  .row {
+    max-width: 90%;
+    margin: auto;
+  }
+  .row-red {
+    background-color: $light-red;
+  }
+  .row-yellow {
+    background-color: $yellow;
+  }
+  .col-2, .col-sm {
+    border: 1px black solid; 
+  }
+  .btn-group {
+    margin-top: 15px;
+    justify-content: space-evenly;
+  }
+
+  p {
+    font-family: 'Desereted';
+    text-align: justify;
+    font-size: 1.4rem;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    width: 200px;
+    color: $white;
+    box-shadow: none;
+    border: none;
+    font-size: 2rem;
+  }
+
+  a.btn {
+    background-color: $white;
+  }
+  button.btn {
+    background-color: $white;
+    color: $black;
+  }
+
+  .btn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: $white;
+    color: $black;
+  }
+}
+
 #drei-insel-festival {
   .container {
     background-color: $brown;
+  }
+  img {
+    border: 5px solid $white;
   }
   .modal-body > .container {
     background-color: $white;

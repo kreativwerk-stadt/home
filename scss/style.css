@@ -20,7 +20,7 @@
 }
 
 a {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .fa {
@@ -37,11 +37,11 @@ a {
 }
 
 .fa-instagram {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .navbar {
-  box-shadow: 2px 2px 5px #e5dddb;
+  box-shadow: 2px 2px 5px rgb(229, 221, 219);
   opacity: 0.9;
   background: #ffffff;
 }
@@ -57,7 +57,7 @@ a {
 }
 .navbar a {
   font-size: 1.8rem;
-  color: black !important;
+  color: rgb(0, 0, 0) !important;
 }
 @media screen and (max-width: 384px) {
   .navbar a {
@@ -93,17 +93,84 @@ a {
 }
 #showcase .container h1 {
   font-size: 5rem;
-  color: black;
+  color: rgb(0, 0, 0);
   -webkit-text-stroke: 1px #ffffff;
 }
 #showcase .container #demo {
-  color: #5c96a7;
+  color: rgb(92, 150, 167);
   font-weight: bold;
-  -webkit-text-stroke: 1px black;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+#palast-koberg .container {
+  background-color: rgb(228, 217, 217);
+}
+#palast-koberg img {
+  border: 5px solid #ffffff;
+}
+#palast-koberg .modal-body > .container {
+  background-color: rgb(228, 217, 217);
+  padding: 10px;
+}
+#palast-koberg .modal-dialog {
+  max-width: 600px;
+}
+#palast-koberg h1 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+  color: rgb(0, 0, 0);
+}
+#palast-koberg .row {
+  max-width: 90%;
+  margin: auto;
+}
+#palast-koberg .row-red {
+  background-color: #b58089;
+}
+#palast-koberg .row-yellow {
+  background-color: rgb(245, 209, 109);
+}
+#palast-koberg .col-2, #palast-koberg .col-sm {
+  border: 1px black solid;
+}
+#palast-koberg .btn-group {
+  margin-top: 15px;
+  justify-content: space-evenly;
+}
+#palast-koberg p {
+  font-family: "Desereted";
+  text-align: justify;
+  font-size: 1.4rem;
+  margin: 0;
+  margin-bottom: 10px;
+}
+#palast-koberg .btn {
+  padding: 8px 16px;
+  width: 200px;
+  color: #ffffff;
+  box-shadow: none;
+  border: none;
+  font-size: 2rem;
+}
+#palast-koberg a.btn {
+  background-color: #ffffff;
+}
+#palast-koberg button.btn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+#palast-koberg .btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
 }
 
 #drei-insel-festival .container {
-  background-color: #bba38b;
+  background-color: rgb(187, 163, 139);
+}
+#drei-insel-festival img {
+  border: 5px solid #ffffff;
 }
 #drei-insel-festival .modal-body > .container {
   background-color: #ffffff;
@@ -125,7 +192,7 @@ a {
   background-color: #b58089;
 }
 #drei-insel-festival .row-yellow {
-  background-color: #f5d16d;
+  background-color: rgb(245, 209, 109);
 }
 #drei-insel-festival .col-2, #drei-insel-festival .col-sm {
   border: 1px black solid;
@@ -149,20 +216,20 @@ a {
   font-size: 2rem;
 }
 #drei-insel-festival a.btn {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 }
 #drei-insel-festival button.btn {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 }
 #drei-insel-festival .btn:hover {
   text-decoration: underline;
   cursor: pointer;
   background-color: #ffffff;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 #insel-artists .container {
-  background-color: #bba38b;
+  background-color: rgb(187, 163, 139);
   min-height: 620px;
 }
 #insel-artists h1 {
@@ -181,7 +248,7 @@ a {
 }
 
 #expedition-glück .container {
-  background-color: #5c96a7;
+  background-color: rgb(92, 150, 167);
 }
 #expedition-glück h1 {
   font-size: 3rem;
@@ -210,7 +277,7 @@ a {
 }
 
 #art-map .container {
-  background-color: #f5d16d;
+  background-color: rgb(245, 209, 109);
 }
 #art-map h1 {
   font-size: 3rem;
@@ -228,7 +295,7 @@ a {
 #art-map button {
   padding: 8px 16px;
   width: 200px;
-  background-color: #5c96a7;
+  background-color: rgb(92, 150, 167);
   color: #ffffff;
   box-shadow: none;
   border: none;
@@ -236,12 +303,12 @@ a {
 }
 
 #diy-automat .container {
-  background-color: #98b153;
+  background-color: rgb(152, 177, 83);
 }
 #diy-automat h1 {
   font-size: 3rem;
   letter-spacing: 3px;
-  color: #f3f6f9;
+  color: rgb(243, 246, 249);
 }
 #diy-automat .row {
   max-width: 90%;
@@ -255,12 +322,12 @@ a {
 }
 #diy-automat h3 {
   margin-bottom: 20px;
-  color: #f3f6f9;
+  color: rgb(243, 246, 249);
 }
 #diy-automat a {
   padding: 8px 16px;
   width: 300px;
-  background-color: #363535;
+  background-color: rgb(54, 53, 53);
   color: #ffffff;
   box-shadow: none;
   border: none;
@@ -285,7 +352,7 @@ a {
 }
 
 #clemens .container {
-  background-color: #5c96a7;
+  background-color: rgb(92, 150, 167);
 }
 #clemens h1 {
   font-size: 3rem;
@@ -302,7 +369,7 @@ a {
 }
 
 #blog .container {
-  background-color: #f5d16d;
+  background-color: rgb(245, 209, 109);
   min-height: 620px;
 }
 #blog h1 {
@@ -320,7 +387,7 @@ a {
 }
 
 #team .container {
-  background-color: #98b153;
+  background-color: rgb(152, 177, 83);
 }
 #team h1 {
   font-size: 3rem;
@@ -351,8 +418,8 @@ a {
   font-size: 1.8rem;
 }
 #contact input[type=submit] {
-  background-color: #5c96a7;
-  border-color: #5c96a7;
+  background-color: rgb(92, 150, 167);
+  border-color: rgb(92, 150, 167);
   font-size: 1.8rem;
 }
 #contact small {
@@ -360,7 +427,7 @@ a {
 }
 
 #main-footer {
-  background-color: #bba38b;
+  background-color: rgb(187, 163, 139);
 }
 #main-footer a {
   font-size: 1.8rem;
