@@ -11,7 +11,8 @@ $grey: rgb(229, 221, 219);
 $black: rgb(0, 0, 0);
 $light-black: rgb(54, 53, 53);
 $orange: rgb(228, 217, 217);
-$pink: rgb(236, 157, 217);
+$pink: rgb(216, 221, 145);
+$lila: rgb(64, 66, 207);
 
 $lg: 992px;
 $burger-menu-moved-to-left: 384px;
@@ -36,6 +37,12 @@ $burger-menu-moved-to-left: 384px;
   src: url(../fonts/AmaticSC-Regular.ttf);
 }
 
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url(../fonts/OpenSans-Light.ttf);
+}
+
+
 * {
   font-family: 'AmaticSC-Bold';
 }
@@ -56,7 +63,7 @@ a {
 }
 
 .fa-instagram {
-  color: $black;
+  color: $white;
 }
 
 .navbar {
@@ -342,6 +349,76 @@ a {
   }
 }
 
+#fuenf-insel-festival {
+  .container {
+    background-color: $yellow;
+  }
+  img {
+    border: 5px solid $white;
+  }
+  .modal-body > .container {
+    background-color: $white;
+    padding: 0;
+  }
+  .modal-dialog {
+    max-width: 600px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: $black;
+  }
+
+  .row {
+    max-width: 90%;
+    margin: auto;
+  }
+  .row-red {
+    background-color: $light-red;
+  }
+  .row-yellow {
+    background-color: $yellow;
+  }
+  .col-2, .col-sm {
+    border: 1px black solid; 
+  }
+  .btn-group {
+    margin-top: 15px;
+    justify-content: space-evenly;
+  }
+
+  p {
+    font-family: 'OpenSans-Regular';
+    text-align: justify;
+    font-size: 1.4rem;
+    margin: 0;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    width: 200px;
+    color: $white;
+    box-shadow: none;
+    border: none;
+    font-size: 2rem;
+  }
+
+  a.btn {
+    background-color: $black;
+  }
+  button.btn {
+    background-color: $black;
+  }
+
+  .btn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: $white;
+    color: $black;
+  }
+}
+
 #insel-artists {
   .container {
     background-color: $brown;
@@ -435,7 +512,32 @@ a {
     font-size: 2rem;
   }
 }
+#greeting {
+  .container {
+    background-color: $blue;
+  }
 
+  h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+  }
+
+  img {
+    max-width: 90%;
+  }
+
+  .row {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .col-md-6 {
+    font-family: 'OpenSans-Regular';
+    text-align: justify;
+    font-size: 1.4rem;
+
+  }
+}
 #diy-automat {
   .container {
     background-color: $green;
@@ -542,7 +644,8 @@ a {
 
 #team {
   .container {
-    background-color: $green;
+    background-color: $light-red;
+    color: $white;
   }
 
   h1 {
@@ -556,10 +659,12 @@ a {
   }
 
   p {
-    font-family: 'Desereted';
+    font-family: 'OpenSans-Regular';
     text-align: justify;
     font-size: 1.4rem;
   }
+
+
 }
 
 #contact {
@@ -593,5 +698,9 @@ a {
   a {
     font-size: 1.8rem;
     padding: 0;
+  }
+
+  .fa-instagram {
+    color: $black;
   }
 }
