@@ -21,6 +21,8 @@
 }
 * {
   font-family: "AmaticSC-Bold";
+  -webkit-hyphens: auto;
+          hyphens: auto;
 }
 
 a {
