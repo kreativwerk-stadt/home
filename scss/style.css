@@ -370,6 +370,25 @@ a {
   color: rgb(0, 0, 0);
 }
 
+#fünf-insel-artists .container {
+  background-color: rgb(245, 209, 109);
+  min-height: 620px;
+}
+#fünf-insel-artists h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+#fünf-insel-artists .row {
+  max-width: 90%;
+  margin: auto;
+}
+#fünf-insel-artists p {
+  font-family: "Desereted";
+  text-align: justify;
+  font-size: 1.4rem;
+}
+
 #insel-artists .container {
   background-color: rgb(187, 163, 139);
   min-height: 620px;
