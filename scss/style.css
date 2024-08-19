@@ -342,6 +342,7 @@ a {
 #fuenf-insel-festival .btn-group {
   margin-top: 15px;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 #fuenf-insel-festival p {
   font-family: "OpenSans-Regular";
@@ -356,12 +357,13 @@ a {
   box-shadow: none;
   border: none;
   font-size: 2rem;
+  margin: 2px;
 }
 #fuenf-insel-festival a.btn {
   background-color: rgb(0, 0, 0);
 }
 #fuenf-insel-festival button.btn {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(92, 150, 167);
 }
 #fuenf-insel-festival .btn:hover {
   text-decoration: underline;

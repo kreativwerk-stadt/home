@@ -387,6 +387,7 @@ a {
   .btn-group {
     margin-top: 15px;
     justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 
   p {
@@ -403,13 +404,14 @@ a {
     box-shadow: none;
     border: none;
     font-size: 2rem;
+    margin: 2px;
   }
 
   a.btn {
     background-color: $black;
   }
   button.btn {
-    background-color: $black;
+    background-color: $blue;
   }
 
   .btn:hover {
